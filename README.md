@@ -15,3 +15,15 @@ A grunt driven starting point for small websites from onepage to small projects.
 ## Planned features:
 - grunt server integration
 - deployment system
+
+## Howto:
+- fork this repository
+- if you haven't before install [node](http://nodejs.org/)
+- ensure your npm is up to date `npm update -g npm`
+- if you haven't, install the grunt commandline interface `npm install -g grunt-cli`
+- change into the repos dir and initialize it with `npm install`
+- initially run the grunt default task as `grunt`
+- during development you can use `grunt watch` oder `grunt dev` or just `grunt` to compile files under development circumstances (viewable, uncompressed, comments readable)
+- edit html in `./html`, sass in `./sass` and scripts in `./javascript`
+- to build a distributional version of your site, run `grunt dist` explicitly
+- the dist files will be written to `./dist`
